@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
 
 <head>
     <meta charset="UTF-8">
@@ -21,15 +20,36 @@
 
 
 
-<body class="flex-column min-100-vh">
+<body>
+
+
+    <nav>
+        <ul>
+
+            <li>
+                <a href="#profile">Profile</a>
+            </li>
+            <li>
+                <a href="#project-examples">Project Examples</a>
+            </li>
+            <li>
+                <a href="#links-to-github">Links to My Github</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+
+        </ul>
+    </nav>
 
     <!-- <img src="https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
         alt="Computer at Work" style="height: 1%"> -->
     <header class="app-header">
 
-        <div class="col-12 col-md-4" id="page-title">
+        <div id="page-title">
             <h1 class="page-title" id="page-title">
-                <span>Stephen Carlin Programming</span>
+                Stephen Carlin Programming
             </h1>
         </div>
         <p>
@@ -39,8 +59,32 @@
     </header>
 
     <main class="flex-row justify-space-between">
+
+        <section id="profile">
+            <div class="profile">
+                <article class="profile">
+                    <img src="./assets/images/Stephen-Profile.JPG"
+                        alt="Stephen Carlin ready to help with your coding needs" />
+                    <div class="stephen-bio">
+                        <h3 class="stephen-name">About Me:</h3>
+                        <p>
+                            I studied finance and international businesss before working in finance for several years.
+                            Having joined the fintech world in 2018, I developed an appreciation for the technology
+                            side of finance. I am now learning full-stack web development and hope to advance my skills
+                            for any development needs.
+                        </p>
+                    </div>
+                </article>
+        </section>
+
         <div class="card">
-            <h3 class="card-header text-uppercase">Search By Name</h3>
+            <h3 class="card-header text-uppercase">Profile</h3>
+            <p>Currently in a bootcamp to learn ful-stack development. I can't wait to
+                code for you!</p>
+
+        </div>
+        <div class="card">
+            <h3 class="card-header text-uppercase">Search By Project Name</h3>
             <form id="search-project" class="card-body">
 
                 <input id="projectValue" type="text" name="zip" var len=5 placeholder="Search for a project">
@@ -76,22 +120,26 @@
             Search results:
         </p>
 
-        <section>
+        <section id="project-examples">
             <div class="row">
-                <div class="col-sm-4" id="Projects" class="body">
+                <div class="col-sm-4" class="body">
                     <h2>My Projects</h2>
                     <div>
                         <h3>Project 1</h3>
 
-                        <h3>Team Project-One: https://github.com/scarlinj/Project-One</h3>
-                        <p1>Find the deployed site here:</p1>
-                        <p1></p1>
+                        <h3>Team Project-One:</h3>
+                        <p>Find the deployed site here:
+                            <p></p>
+                            <p> https://scarlinj.github.io/Project-One/</p>
+                            <image>
+
+                            </image>
                     </div>
 
                 </div>
         </section>
 
-        <section>
+        <section id="links-to-github">
             <div class="col-md-8" id="Github" class="repos">
                 <h2>Links to my Github</h2>
                 <div>
@@ -101,12 +149,21 @@
         </section>
 
         </div>
-        <div>
+        <div class="Repositories">
             <h2>My Repositories Page</h2>
             <p>https://github.com/scarlinj?tab=repositories</p>
         </div>
 
+        <section id="contact">
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <p>scarlinj@gmail.com</p>
+            </div>
+        </section>
+
         </div>
+
+
 
     </main>
 

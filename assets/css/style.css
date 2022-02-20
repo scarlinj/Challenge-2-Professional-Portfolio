@@ -6,24 +6,43 @@
 }
 
 header {
-    padding: 20px 35px;
-    background-color;
+    /* padding: 20px 35px; */
+    /* background-color: whitesmoke; */
+    text-align: center;
+    text-decoration-color: blue;
+
+}
+
+.page-title {
+    /* padding: 20px 35px; */
+    text-align: center;
+    /* background-color: whitesmoke; */
     font-size: 32px;
     font-weight: 800;
     text-decoration-color: blue;
-    text-align: center;
+
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    /* font-size: 22px; */
+    font-size: 1.55vw;
+    /* vw = viwport width, which is related to browser window wise */
+}
+
+nav {
+    background-color: lightgray;
 }
 
 
 body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
-    background-color: darkgray;
+    background-color: lightgrey;
 }
 
-.profile {
-    background-image: url(../images/Stephen-Profile.JPG)
-}
+.profile {}
 
 .repos {}
 
