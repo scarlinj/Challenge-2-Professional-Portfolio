@@ -22,30 +22,11 @@
 
 <body>
 
-    <div class="card">
+
+    <!-- <div class="card">
         <h2>My Repositories Page</h2>
         <a href="https://github.com/scarlinj?tab=repositories">scarlinj Github Page</a>
-    </div>
-    <nav>
-        <ul>
-
-            <li>
-                <a href="#profile">Profile</a>
-            </li>
-            <li>
-                <a href="#project-examples">Project Examples</a>
-            </li>
-            <!-- <li>
-                <a href="#links-to-github">Links to My Github</a>
-            </li> -->
-
-            <li>
-                <a href="#contact">Contact Me</a>
-            </li>
-
-        </ul>
-    </nav>
-
+    </div> -->
     <!-- <img src="https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
         alt="Computer at Work" style="height: 1%"> -->
     <header class="app-header">
@@ -61,34 +42,45 @@
 
     </header>
 
+
+
+    <nav>
+        <ul>
+
+            <li>
+                <a href="#profile">Profile</a>
+            </li>
+            <li>
+                <a href="#project-examples">Project Examples</a>
+            </li>
+            <!-- <li>
+                <a href="#links-to-github">Links to My Github</a>
+            </li> -->
+
+            <!-- <li>
+                <a href="#contact">Contact Me</a>
+            </li> -->
+
+            <li>
+                <a href="https://github.com/scarlinj?tab=repositories"> Link to My Github</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <section id="contact">
+        <div class="contact">
+            <h2>Contact me at:</h2>
+            <p>
+                <a href="mailto:scarlinj@gmail.com">scarlinj@gmail.com</a>
+            </p>
+        </div>
+    </section>
+
     <main class="flex-row justify-space-between">
 
-        <section id="profile">
-            <div class="profile">
-                <article class="profile">
-                    
-                    <div class="stephen-bio">
-                        <h3 class="stephen-name">About Me:</h3>
-                        <p>
-                            I studied finance and international businesss before working in finance for several years.
-                            Having joined the fintech world in 2018, I developed an appreciation for the technology
-                            side of finance. I am now learning full-stack web development and hope to advance my skills
-                            for any development needs.
-                        </p>
-                        <img src="./assets/images/Stephen-Profile.JPG"
-                        alt="Stephen Carlin ready to help with your coding needs" />
-                    </div>
-                    
-                </article>
-        </section>
 
-        <div class="card">
-            <h3 class="card-header text-uppercase">Profile</h3>
-            <p>I completed a bootcamp to learn full-stack development and have developed a portfolio of work to show my skills. I always love to meet 
-                new challenges and learn more.  I can't wait to code for you!</p>
-
-        <!-- </div>
-        <div class="card">
+        <!-- <div class="card">
             <h3 class="card-header text-uppercase">Search By Project Name</h3>
             <form id="search-project" class="card-body">
 
@@ -122,54 +114,61 @@
             Search results:
         </p> -->
 
-
+        <h2>My Projects</h2>
 
 
         <section id="project-examples">
-            <div class="row">
-                <div class="col-sm-4" class="body">
-                    <h2>My Projects</h2>
-                    <div>
+            <div class="card">
+                <div class="body">
+                    
+                    <div class="card";>
 
-                        <h3>Team Project-One:</h3>
-                        <h3>This is a group project where you can search for a country and get a list of holidays, then search for a movie to watch. 
-                            </h3> 
-                            <p>
+                        <h3>HoliMovie</h3>
+                        <p>This is a group project where you can search for a country and get a list of holidays, then search for a movie to watch. 
+                        </p> 
+                      
+                        <p>
                             Find the deployed site here:
-                            </p>
-                            <a href="https://scarlinj.github.io/Project-One/">HoliMove</a>
+                            
+                            <a href="https://scarlinj.github.io/Project-One/">HoliMovie</a>
                             <!-- <p>Github repo: 
                                 <a href="https://github.com/scarlinj/Project-One.git">https://github.com/scarlinj/Project-One.git</a>
                             </p> -->
-                            <image src="assets/images/HoliMovie Preview.JPG" class="thumbnail" alt="">
+                        </p>
+                    
+                <image src="assets/images/HoliMovie Preview.JPG" class="thumbnail" alt=""></image>
+            </div>
+                    
 
-                            </image>
-                    </div>
-                    <div>
-                        <h3>Big Sexy Repo - Recipe Blog</h3>
+                  
+                    <div class="card">
+                        <h3>Big Sexy Recipe Blog</h3>
 
-                        <h3>This is a group project where we built a recipe blog from scratch using Node, Express, ORM and the Model View Controller Paradigm.
+                        <p>This is a group project where we built a recipe blog from scratch using Node, Express, ORM and the Model View Controller Paradigm.
                             This also demonstrates the usage of handlebars and Sequelize.
-                        </h3>
+                        </p>
                         <p>Find the deployed site here:
-                            </p>
+                            
                             <a href="https://big-sexy-repo.herokuapp.com/"> Big Sexy Repo </a>
-
+                        
+                        </p>
                             <!-- <p>Github repo: 
                                 <a href="https://github.com/scarlinj/Big-sexy-repo">https://github.com/scarlinj/Big-sexy-repo</a>
                             </p> -->
+
                             <image src="assets/images/Big-Sexy-Repo Preview.JPG" class="thumbnail" alt="">
 
                             </image>
                     </div>
-                    <div>
+                    <div class="card">
 
-                        <h3>Sexy Recipes</h3>
-                        <h3>This is a group project where we built a recipe blog from scratch using MongoDB, Express, React and Node (MERN).  Create, post, edit and delete recipes after logging in.
-                        </h3>
-                            <p>Find the deployed site here:</p>
+                        <h3>Sexy Recipes (React)</h3>
+                        <p>This is a group project where we built a recipe blog from scratch using MongoDB, Express, React and Node (MERN).  
+                            Create, post, edit and delete recipes after logging in.  Create an account here and try it out!
+                        </p>
+                            <p>Find the deployed site here:
                             <a href="https://big-sexy-recipes.herokuapp.com/"> Sexy Recipes </a>
-
+                            </p>
                             <!-- <p>Github repo: 
                                 <a href="https://github.com/hestokes/project3-mern">https://github.com/hestokes/project3-mern</a>
                             </p> -->
@@ -193,14 +192,7 @@
         </div>
 
 
-        <section id="contact">
-            <div class="contact">
-                <h2>Contact me at:</h2>
-                <p>
-                    <a href="mailto:scarlinj@gmail.com">scarlinj@gmail.com</a>
-                </p>
-            </div>
-        </section>
+
 
         </div>
 
@@ -211,8 +203,41 @@
 
     <script src="assets/js/app.js"></script>
 
+    <div class="card">
+        <h3 class="card-header text-uppercase">Profile</h3>
+        <!-- <p>I completed a bootcamp to learn full-stack development and have developed a portfolio of work to show my skills. I always love to meet 
+            new challenges and learn more.  I can't wait to code for you!</p> -->
+
+    </div>
+
+    <section id="profile">
+        <div class="profile">
+            <article class="profile">
+                
+                <div class="stephen-bio">
+                    <h3 class="stephen-name">About Me:</h3>
+                    <p>
+                        I studied finance and international business before working in finance for several years.
+                        Having joined the fintech world in 2018, I developed an appreciation for the technology
+                        side of finance. I completed a bootcamp to learn full-stack development and built a 
+                        portfolio of work to show my skills. I always love to meet new challenges and learn more, so  
+                        I can't wait to code for you!
+                    </p>
+                    <img src="./assets/images/Stephen-Profile.JPG"
+                    alt="Stephen Carlin ready to help with your coding needs" />
+                </div>
+                
+            </article>
+    </section>
 
 </body>
 
+<footer>
+    
+<p text-align: left>
+    Thank you for visiting!
+</p>
+
+</footer>
 
 </html>
