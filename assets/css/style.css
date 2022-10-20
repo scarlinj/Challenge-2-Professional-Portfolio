@@ -45,8 +45,6 @@ body {
     background-color: cornsilk;
 }
 
-.profile {}
-
 .repos {}
 
 .card-body {
@@ -83,6 +81,10 @@ h2 {
     background-color: lightgray;
     color: black;
     /* background-color: cornsilk; */
+}
+
+.profile {
+    background-color: lightgray;
 }
 
 h3 {
